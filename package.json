@@ -1,0 +1,18 @@
+{
+  "name": "@zatsunenomokou/redis-cache",
+  "packageManager": "yarn@3.6.3",
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "main.js",
+  "types": "main.d.ts",
+  "type": "module",
+  "dependencies": {
+    "@sinclair/typebox": "^0.31.15",
+    "redis": "^4.6.8"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "typescript": "^5.2.2"
+  }
+}
